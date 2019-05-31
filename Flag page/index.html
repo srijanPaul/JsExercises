@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <title>
+        Flag exercise
+    </title>
+
+    <head>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+
+        <h1>Hi there, this is a flag list.</h1>
+        <div class="intro-text"><p>Hover your mouse over a flag to see what country it belongs to in the textbox below.</p> 
+        
+        </div>
+
+        <div class="flags"></div>
+            <ul class="flag-list" id = "flag-list">
+                <li class="flag-item" id="flag-0" onmouseover = showname(0) onmouseout= clearText()><img src="images/flags/Great Britian.png" class="flag-img" ></li>
+                <li class="flag-item" id="flag-1" onmouseover = showname(1) onmouseout= clearText()><img src="images/flags/Japan.png" class="flag-img" ></li>
+                <li class="flag-item" id="flag-2" onmouseover = showname(2) onmouseout= clearText()><img src="images/flags/India.png" class="flag-img" ></li>
+                
+            </ul>
+
+            <ul class="flag-list" id = "flag-list">
+                <li class="flag-item" id="flag-3" onmouseover = showname(3) onmouseout= clearText()><img src="images/flags/Namibia.png" class="flag-img" ></li>
+                <li class="flag-item" id="flag-4" onmouseover = showname(4) onmouseout= clearText()><img src="images/flags/South Sudan.png" class="flag-img" ></li>
+                <li class="flag-item" id="flag-5" onmouseover = showname(5) onmouseout= clearText()><img src="images/flags/Canada.png" class="flag-img"></li>
+            </ul>
+        <div id="textbox"></div>
+        
+
+    </body>
+
+</html>
