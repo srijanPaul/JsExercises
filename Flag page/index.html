@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-    <title>
-        Flag exercise
-    </title>
 
     <head>
+       <title>
+            Flag exercise
+        </title>
         <link href="stylesheet.css" rel="stylesheet" type="text/css">
         <script src="main.js"></script>
+        <meta charset="UTF-8">
     </head>
 
-    <body>
+    <body onclick="changePageColor()">
 
         <h1>Hi there, this is a flag list.</h1>
         <div class="intro-text"><p>Hover your mouse over a flag to see what country it belongs to in the textbox below.</p> 
         
         </div>
 
-        <div class="flags"></div>
+        <div class="flags">
             <ul class="flag-list" id = "flag-list">
                 <li class="flag-item" id="flag-0" onmouseover = showname(0) onmouseout= clearText()><img src="images/flags/Great Britian.png" class="flag-img" ></li>
                 <li class="flag-item" id="flag-1" onmouseover = showname(1) onmouseout= clearText()><img src="images/flags/Japan.png" class="flag-img" ></li>
@@ -30,6 +31,8 @@
                 <li class="flag-item" id="flag-4" onmouseover = showname(4) onmouseout= clearText()><img src="images/flags/South Sudan.png" class="flag-img" ></li>
                 <li class="flag-item" id="flag-5" onmouseover = showname(5) onmouseout= clearText()><img src="images/flags/Canada.png" class="flag-img"></li>
             </ul>
+
+        </div>
         <div id="textbox"></div>
         
 

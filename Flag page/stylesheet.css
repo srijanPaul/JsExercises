@@ -1,57 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Century Gothic';
-    background-color : #C7A7F0;
-    text-align: center;
-
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic';
+	background-color: #c7a7f0;
+	text-align: center;
 }
 
-h1{
-    color: #2E1263;
-    font-weight: 200;
-    margin : 25px;
-    padding : 10px;
-    text-transform: uppercase;
-    border-bottom: 1px solid black;
-    
+h1 {
+	color: #2e1263;
+	font-weight: 200;
+	margin: 25px;
+	padding: 10px;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
 }
 
-.flag-img{
-    height: 100px;
-    width: auto;
-    opacity: 0.3 ;
-  
+.flag-img {
+	height: 100px;
+	width: auto;
+	opacity: 0.3;
 }
 
-.flag-img:hover{
-    transition-duration: 0.5s;
-    opacity: 1 ;
+.flag-img:hover {
+	transition-duration: 0.5s;
+	opacity: 1;
 }
 
-
-
-.intro-text{
-    margin: 25px;
-    padding : 10px;
-
+.intro-text {
+	margin: 25px;
+	padding: 10px;
 }
 
-ul{
-    margin: 25px;
-    list-style : none;
+ul {
+	margin: 25px;
+	list-style: none;
 }
 
-
-.flag-item{
-    display: inline-block;
-    padding: 10px;
+.flag-item {
+	display: inline-block;
+	padding: 10px;
 }
 
-#textbox{
-    color : #2E1263;
-    font-size: 50px;
-    border-top: 1px solid #2E1263;
-    margin : 25px;
-
+#textbox {
+	color: #2e1263;
+	font-size: 35px;
+	border-top: 1px solid #2e1263;
+	margin: 25px;
 }
