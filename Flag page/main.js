@@ -1,6 +1,5 @@
-var names = [ 'Great Britian', 'Japan', 'India', 'Namibia', 'South Sudan', 'Canada' ];
-var flags = [];
-var colors = [
+let names = [ 'Great Britian', 'Japan', 'India', 'Namibia', 'South Sudan', 'Canada' ];
+let colors = [
 	'#F9A6A6',
 	'#E1BADF',
 	'#c7a7f0',
@@ -14,8 +13,8 @@ var colors = [
 	'#F9A6D5'
 ];
 
-var chnageModeOn = true;
-var done = true;
+let changeModeOn = true;
+let done = true;
 
 function showname(num) {
 	document.getElementById('textbox').innerHTML = names[num];
@@ -26,14 +25,14 @@ function clearText() {
 }
 
 function changePageColor() {
-	if(chnageModeOn){
-		var color = colors[Math.floor(Math.random() * colors.length)];
-		document.querySelectorAll('*').forEach((e) => (e.style = 'background-color : ' + color));
+	if(changeModeOn){
+		let color = colors[Math.floor(Math.random() * colors.length)];
+		document.body.style.backgroundColor = color;
 	}
 }
 
 function setChangeMode(bool){
-	chnageModeOn = bool;
+	changeModeOn = bool;
 }
 
 
